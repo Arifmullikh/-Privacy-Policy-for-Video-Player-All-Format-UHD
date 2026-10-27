@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Privacy Policy - Video Player All Format</title>
+<title>Privacy Policy - Video Player All Format UHD</title>
 <style>
 body{font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif;max-width:800px;margin:0 auto;padding:24px;line-height:1.7;color:#222;background:#fafafa}
 h1{color:#1a1a2e}h2{color:#333;margin-top:28px;border-bottom:1px solid #ddd;padding-bottom:4px}
@@ -12,47 +12,64 @@ h1{color:#1a1a2e}h2{color:#333;margin-top:28px;border-bottom:1px solid #ddd;padd
 </head>
 <body>
 <h1>Privacy Policy</h1>
-<p class="date">Last updated: October 27, 2026</p>
-<p>This Privacy Policy explains how <strong>Video Player All Format</strong> (the "App"), developed by <strong>AM Core Studios</strong> ("we", "us", "our"), handles your information. By using the App, you agree to this policy.</p>
+<p><em>Last updated: October 27, 2026</em></p>
+<p>This Privacy Policy explains how <strong>Video Player All Format UHD</strong> (the "App"), developed by <strong>AM Core Studios</strong> ("we", "us", "our"), handles your information. By using the App, you agree to this policy.</p>
 
 <h2>1. Information We Collect</h2>
-<p>We do <strong>not</strong> collect, store, or share any personal information. The App has no user accounts and no servers. The App does not require an account and does not ask for your name, email, phone number, or location.</p>
+<p>We do <strong>not</strong> collect, store, or share any personal information. The App has no user accounts and no servers. It does not ask for your name, email, phone number, or location.</p>
 
 <h2>2. Your Media Files</h2>
-<p>The App needs permission to access the video and audio files on your device so it can play them. All files are processed <strong>locally on your device only</strong>. Your videos, music, playlists, playback history, settings, Private Folder contents, and custom theme images are never uploaded to any server.</p>
+<p>The App needs permission to access the video and audio files on your device so it can play them. All files are processed <strong>locally on your device only</strong>. Your videos, music, playlists, playback history, bookmarks, favourites, settings, Privacy folder contents, and custom theme images are never uploaded to any server.</p>
 
-<h2>3. Private Folder</h2>
-<p>Files you place in the Private Folder are stored and protected locally on your device. We cannot access them. If you uninstall the App or forget your lock, these files may not be recoverable.</p>
+<h2>3. Privacy Folder (Hidden &amp; Locked Videos)</h2>
+<ul>
+<li>Videos you hide, and all videos in folders you lock, are moved into the App's Privacy folder and <strong>encrypted with AES-256</strong> on your device.</li>
+<li>Access is protected by a PIN you create, and optionally your fingerprint or face unlock. Your PIN is never stored in plain text; only a salted, one-way hash is kept on your device.</li>
+<li>You may set a <strong>security question and answer</strong> to recover access if you forget your PIN. The answer is used only on your device to derive a recovery key and is never sent anywhere.</li>
+<li>Encrypted files are stored in a hidden folder in your device storage that <strong>you choose</strong> (via Android's system folder picker), so they can be restored after reinstalling the App using your PIN or security answer.</li>
+<li>We cannot access, see, or recover your Privacy folder contents, PIN, or security answer. If you delete the encrypted folder, or forget both your PIN and your security answer, the files cannot be recovered.</li>
+<li>When you hide a video, Android may ask you to allow removing the original from your gallery. The video is not lost; it is kept encrypted in the Privacy folder.</li>
+</ul>
 
 <h2>4. Internet Usage and Payments</h2>
-<p>The App works fully offline. It uses the internet only to process Premium purchases through <strong>Google Play Billing</strong>. Payments are handled entirely by Google; we never see or store your payment details. Please review <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a> for details.</p>
+<p>The App works fully offline. It uses the internet only to process Premium purchases and free trials through <strong>Google Play Billing</strong>, and to open this Privacy Policy in your browser. Payments are handled entirely by Google; we never see or store your payment details. Please review <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> for details.</p>
 
-<h2>5. Advertising</h2>
-<p>The App contains no ads and uses no advertising or tracking SDKs.</p>
+<h2>5. Premium Features</h2>
+<p>Premium (monthly, 3-month, or lifetime, with an optional free trial on subscriptions) unlocks features such as the Privacy folder, hiding folders from the scan list, home screen widgets, the Theme Store and custom themes, video-to-MP3 conversion, and playback speeds above 2x. All of these run locally on your device. Subscriptions can be managed or cancelled anytime in the Google Play Store.</p>
 
-<h2>6. Permissions We Use</h2>
+<h2>6. Home Screen Widgets</h2>
+<p>Widgets show the current track, playback controls, shortcuts, and thumbnails of your recently played media. This information is read locally from your device and is visible only on your own home screen.</p>
+
+<h2>7. Advertising</h2>
+<p>The App contains <strong>no ads</strong> and uses no advertising or tracking SDKs.</p>
+
+<h2>8. Permissions We Use</h2>
 <ul>
 <li><strong>Read media / storage</strong> (READ_MEDIA_VIDEO, READ_MEDIA_AUDIO, READ_MEDIA_VISUAL_USER_SELECTED, and READ_EXTERNAL_STORAGE on Android 12 and below): to find and play the videos and music on your device. On Android 14+, you may allow access to selected videos only.</li>
-<li><strong>Write storage</strong> (WRITE_EXTERNAL_STORAGE, Android 9 and below only): to save converted MP3 files and rename or delete files you choose.</li>
+<li><strong>Write storage</strong> (WRITE_EXTERNAL_STORAGE, Android 9 and below only): to save converted MP3 files, restore videos from the Privacy folder, and rename or delete files you choose.</li>
+<li><strong>Folder access you grant</strong> (Android system folder picker): to store the encrypted Privacy folder in the location you choose. The App only accesses that folder.</li>
 <li><strong>Notifications</strong> (POST_NOTIFICATIONS): to show playback controls in the notification.</li>
 <li><strong>Foreground service and wake lock</strong> (FOREGROUND_SERVICE, FOREGROUND_SERVICE_MEDIA_PLAYBACK, WAKE_LOCK): to keep music and video playing in the background and with the screen off.</li>
-<li><strong>Biometric</strong> (USE_BIOMETRIC, USE_FINGERPRINT): optional fingerprint or face unlock for the Private Folder. Biometric data is handled by Android and is never accessed or stored by the App.</li>
-<li><strong>Internet and network state</strong> (INTERNET, ACCESS_NETWORK_STATE) and <strong>Google Play Billing</strong> (com.android.vending.BILLING): used only to process Premium purchases. No streaming, ads, or other online features.</li>
+<li><strong>Biometric</strong> (USE_BIOMETRIC): optional fingerprint or face unlock for the Privacy folder. Biometric data is handled by Android and is never accessed or stored by the App.</li>
+<li><strong>Internet and network state</strong> (INTERNET, ACCESS_NETWORK_STATE) and <strong>Google Play Billing</strong> (com.android.vending.BILLING): used only for Premium purchases. No streaming, ads, or other online features.</li>
 </ul>
 <p>The App does <strong>not</strong> request access to your camera, microphone, location, contacts, phone, all-files storage (MANAGE_EXTERNAL_STORAGE), or advertising ID.</p>
 
-<h2>6a. Third-Party Services</h2>
-<p>The App contains no analytics, crash reporting, or advertising SDKs. The only third-party service is the Google Play Billing Library. When you buy Premium, the App receives only the purchase status and a purchase token from Google Play, which are stored locally on your device to unlock Premium features.</p>
+<h2>9. Third-Party Services</h2>
+<p>The App contains no analytics, crash reporting, or advertising SDKs. The only third-party service is the Google Play Billing Library. When you buy Premium, the App receives only the purchase status and a purchase token from Google Play, which are stored locally on your device to unlock Premium features. The App also includes open-source fonts (Inter, Poppins, Roboto) under the SIL Open Font License; they do not collect any data.</p>
 
-<h2>7. Children's Privacy</h2>
-<p>The App does not knowingly collect any information from anyone, including children under 13.</p>
+<h2>10. Data Retention and Deletion</h2>
+<p>All App data stays on your device. Uninstalling the App or clearing its data removes your settings, history, and playlists. Encrypted Privacy folder files remain in the folder you chose until you restore or delete them, or delete that folder.</p>
 
-<h2>8. Changes to This Policy</h2>
+<h2>11. Children's Privacy</h2>
+<p>The App is intended for users aged 18 and over and does not knowingly collect any information from anyone, including children under 13.</p>
+
+<h2>12. Changes to This Policy</h2>
 <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated date.</p>
 
-<h2>9. Contact Us</h2>
-<p>If you have any questions, contact us at: <strong><a href="mailto:arifmullikh.personal@gmail.com">arifmullikh.personal@gmail.com</a></strong></p>
+<h2>13. Contact Us</h2>
+<p>If you have any questions, contact us at: <a href="mailto:arifmullikh.personal@gmail.com">arifmullikh.personal@gmail.com</a></p>
 
-<footer>&copy; 2026 AM Core Studios. All rights reserved.</footer>
+<p>&copy; 2026 AM Core Studios. All rights reserved.</p>
 </body>
 </html>
