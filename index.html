@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f5f7fb">
   <meta name="description" content="Privacy Policy for Video Player All Format UHD by AM Core Studios, in English and Bangla.">
+  <link rel="icon" type="image/png" href="app-logo.png">
   <title>Privacy Policy — Video Player All Format UHD</title>
   <style>
     :root{color-scheme:light;--page:#f5f7fb;--surface:#fff;--ink:#172033;--muted:#657087;--line:#e4e8f0;--blue:#0878f9;--soft:#edf5ff;--shadow:0 18px 54px #18345c0b;--max:920px}
@@ -26,11 +27,141 @@
     .theme-button:focus-visible{outline:3px solid color-mix(in srgb,var(--blue) 50%,transparent);outline-offset:3px}
     @media(max-width:700px){.theme-button{width:68px;height:36px;min-width:68px}.theme-button .sun-moon{width:28px;height:28px;top:4px;left:4px}.theme-button[aria-pressed=true] .sun-moon{transform:translateX(32px)}}
     @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important}}
+    /* Liquid-glass inspired surface styling, built in CSS for static hosting. */
+    :root{--page:#eef4ff;--surface:rgba(255,255,255,.58);--ink:#101827;--muted:#53627a;--line:rgba(255,255,255,.72);--blue:#0878f9;--soft:rgba(232,242,255,.72);--shadow:0 22px 70px rgba(49,87,145,.12)}
+    [data-theme="dark"]{--page:#080d17;--surface:rgba(25,35,52,.62);--ink:#f2f6ff;--muted:#aebbd0;--line:rgba(255,255,255,.13);--blue:#80b8ff;--soft:rgba(28,54,84,.56);--shadow:0 22px 70px rgba(0,0,0,.28)}
+    body{background:radial-gradient(ellipse at 8% 4%,rgba(99,169,255,.2),transparent 38%),radial-gradient(ellipse at 96% 27%,rgba(151,192,255,.15),transparent 34%),var(--page);background-attachment:fixed}
+    .topbar{background:color-mix(in srgb,var(--page) 55%,transparent);border-bottom-color:color-mix(in srgb,var(--line) 70%,transparent)}
+    .brand-mark{box-shadow:0 5px 20px #1689ed48,inset 0 1px 2px #fff8}
+    .segmented,.theme-button,.toc,.notice,.policy section{background:var(--surface);border:1px solid var(--line);box-shadow:var(--shadow);backdrop-filter:blur(24px) saturate(1.45);-webkit-backdrop-filter:blur(24px) saturate(1.45)}
+    .segmented{box-shadow:0 7px 24px rgba(49,87,145,.08),inset 0 1px #fff9}
+    .lang-button[aria-pressed=true]{background:color-mix(in srgb,var(--blue) 12%,transparent)}
+    .hero{position:relative;padding:70px 34px 34px;margin:26px 0 4px;border:1px solid var(--line);border-radius:30px;background:linear-gradient(135deg,color-mix(in srgb,var(--surface) 78%,white 12%),color-mix(in srgb,var(--surface) 70%,transparent));box-shadow:var(--shadow);backdrop-filter:blur(30px) saturate(1.5);-webkit-backdrop-filter:blur(30px) saturate(1.5);overflow:hidden}
+    .hero:before{content:"";position:absolute;inset:0 0 auto;height:1px;background:linear-gradient(90deg,transparent,color-mix(in srgb,var(--line) 96%,white),transparent)}
+    .hero:after{content:"";position:absolute;width:340px;height:340px;right:-115px;top:-190px;border-radius:50%;background:radial-gradient(circle,#7cbaff38,transparent 68%);pointer-events:none}
+    .eyebrow{display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border-radius:999px;border:1px solid color-mix(in srgb,var(--blue) 20%,var(--line));background:color-mix(in srgb,var(--soft) 82%,transparent);font-size:11px;letter-spacing:.1em}
+    .eyebrow:before{content:"";width:7px;height:7px;border-radius:50%;background:var(--blue);box-shadow:0 0 12px color-mix(in srgb,var(--blue) 65%,transparent)}
+    .hero h1{margin-top:19px;font-size:clamp(42px,7vw,68px);letter-spacing:-.065em}
+    .hero p{font-size:18px;max-width:650px}
+    .updated{display:inline-flex;gap:5px;margin-top:22px;padding:6px 11px;border:1px solid var(--line);border-radius:999px;background:color-mix(in srgb,var(--surface) 80%,transparent)}
+    .notice{margin-top:19px;border-radius:16px;font-size:14px;line-height:1.7}
+    .layout{grid-template-columns:205px minmax(0,1fr);gap:34px;padding-top:22px}
+    .toc{padding:18px 16px;border-radius:20px}
+    .toc a{padding:7px 9px;border-radius:9px;transition:background .2s,color .2s}
+    .toc a:hover{background:color-mix(in srgb,var(--blue) 9%,transparent)}
+    .policy section{position:relative;margin-bottom:14px;padding:24px 25px;border-radius:21px;overflow:hidden;transition:transform .25s,border-color .25s,background .25s}
+    .policy section:first-child{padding-top:24px}
+    .policy section:before{content:"";position:absolute;inset:0 0 auto;height:1px;background:linear-gradient(90deg,transparent,color-mix(in srgb,var(--line) 90%,white),transparent)}
+    .policy section:hover{transform:translateY(-2px);border-color:color-mix(in srgb,var(--blue) 20%,var(--line))}
+    .policy h2{font-size:20px;letter-spacing:-.02em}
+    .policy p,.policy ul{font-size:15px}
+    .policy li{padding:5px 3px}
+    .theme-button{border:1px solid var(--line);box-shadow:0 8px 24px rgba(49,87,145,.12),inset 0 1px #fff9}
+    .footer-inner{padding-top:22px}
+    @media(max-width:700px){.hero{margin-top:18px;padding:44px 20px 23px;border-radius:24px}.hero p{font-size:16px}.updated{font-size:12px}.layout{padding-top:8px}.toc{grid-template-columns:1fr 1fr;box-shadow:var(--shadow)}.policy section,.policy section:first-child{padding:20px 18px;margin-bottom:11px;border-radius:18px}.policy p,.policy ul{font-size:14px}}
+    /* Gentle motion across the page; the policy remains readable without JS. */
+    @keyframes rise-in{from{opacity:0;transform:translateY(18px) scale(.992)}to{opacity:1;transform:translateY(0) scale(1)}}
+    @keyframes ambient-drift{0%,100%{transform:translate3d(0,0,0) scale(1)}50%{transform:translate3d(-18px,16px,0) scale(1.08)}}
+    .hero{animation:rise-in .75s cubic-bezier(.2,.75,.25,1) both}
+    .hero:after{animation:ambient-drift 12s ease-in-out infinite}
+    .notice{animation:rise-in .7s .12s cubic-bezier(.2,.75,.25,1) both}
+    .policy section.reveal{opacity:0;transform:translateY(16px);transition:opacity .65s ease,transform .65s cubic-bezier(.2,.75,.25,1),background .25s,border-color .25s}
+    .policy section.reveal.is-visible{opacity:1;transform:translateY(0)}
+    .policy section:hover{box-shadow:0 25px 72px rgba(49,87,145,.16),inset 0 1px rgba(255,255,255,.72)}
+    .policy section.reveal.is-visible:hover{transform:translateY(-2px)}
+    .toc,.segmented,.theme-button{transition:background .25s,border-color .25s,box-shadow .25s,transform .25s}
+    .theme-button:hover{transform:translateY(-1px) scale(1.03)}
+    .brand-mark{position:relative;overflow:hidden}
+    .brand-mark:before{content:"";position:absolute;inset:-30%;background:linear-gradient(115deg,transparent 35%,#fff9 48%,transparent 62%);transform:translateX(-100%);animation:mark-shine 5.5s 1.2s ease-in-out infinite}
+    @keyframes mark-shine{0%,70%,100%{transform:translateX(-100%)}85%{transform:translateX(100%)}}
+    @media(prefers-reduced-motion:reduce){.hero,.notice,.hero:after,.hero-landscape,.brand-mark:before{animation:none!important}.policy section.reveal{opacity:1;transform:none;transition:none}}
+    /* Dark gradient product landing-page direction from the supplied ZIP. */
+    :root{--page:#101522;--surface:#171f2d;--ink:#f5f7fb;--muted:#a9b2c2;--line:#2c3748;--blue:#ff563d;--soft:#252b38;--shadow:0 20px 55px rgba(0,0,0,.22)}
+    [data-theme="dark"]{--page:#0c101a;--surface:#141b28;--ink:#f7f8fb;--muted:#a8b3c4;--line:#2a3546;--blue:#ff6447;--soft:#232b38;--shadow:0 20px 55px rgba(0,0,0,.27)}
+    [data-theme="light"]{--page:#f2f4f8;--surface:#fff;--ink:#172033;--muted:#667085;--line:#e3e7ee;--blue:#f2543f;--soft:#fff0ed;--shadow:0 20px 55px rgba(40,55,80,.1)}
+    body{background:radial-gradient(ellipse at 52% -15%,rgba(255,82,58,.19),transparent 34%),radial-gradient(ellipse at 100% 10%,rgba(42,67,98,.25),transparent 36%),var(--page);background-attachment:fixed}
+    .shell{width:min(1100px,calc(100% - 40px))}
+    .topbar{background:color-mix(in srgb,var(--page) 90%,transparent);border-bottom:1px solid var(--line);color:var(--ink);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+    .brand{color:var(--ink)}.brand span[style]{color:var(--muted)!important}.brand-mark{display:block;width:38px;height:38px;flex:0 0 38px;object-fit:contain;border-radius:10px;box-shadow:0 5px 22px #0004}
+    .segmented{background:var(--surface);border:1px solid var(--line);box-shadow:0 6px 18px #0002;backdrop-filter:none}.lang-button{color:var(--muted)}.lang-button[aria-pressed=true]{color:#fff;background:var(--blue)}
+    [data-theme="light"] .lang-button[aria-pressed=true]{color:white}
+    .hero{left:auto;width:100%;margin:30px 0 0;min-height:470px;padding:56px 52px;border:1px solid #ffffff14;border-radius:26px;background:radial-gradient(ellipse at 100% 0%,rgba(250,77,56,.2),transparent 38%),linear-gradient(125deg,#172332 0%,#111927 54%,#151a26 100%);box-shadow:0 35px 90px rgba(0,0,0,.28),inset 0 1px rgba(255,255,255,.07);display:grid;grid-template-columns:minmax(0,1.05fr) minmax(300px,.95fr);grid-template-rows:auto auto auto auto;align-content:center;column-gap:18px;overflow:hidden;isolation:isolate}
+    [data-theme="light"] .hero{background:radial-gradient(ellipse at 100% 0%,rgba(250,77,56,.22),transparent 38%),linear-gradient(125deg,#fff 0%,#f7f8fc 55%,#eef1f7 100%);border-color:#fff;box-shadow:0 30px 80px rgba(40,55,80,.15),inset 0 1px #fff}
+    .hero:before{z-index:-1;inset:0;background:linear-gradient(110deg,transparent 35%,rgba(255,255,255,.025) 65%,transparent 100%);height:auto}
+    .hero:after{z-index:-1;width:540px;height:540px;right:-160px;top:-150px;background:radial-gradient(circle,rgba(255,83,60,.26),rgba(255,83,60,.08) 36%,transparent 68%);animation:hero-glow 8s ease-in-out infinite alternate}
+    @keyframes hero-glow{to{transform:translate(-18px,20px) scale(1.08);opacity:.74}}
+    .hero-landscape{display:none}
+    .eyebrow{grid-column:1;grid-row:1;width:max-content;gap:0;padding:0;border:0;border-radius:0;background:none;color:#ff795d;font-size:12px;font-weight:700;letter-spacing:.11em}
+    .eyebrow:before{display:inline-block;content:"";width:21px;height:2px;margin-right:9px;background:currentColor;box-shadow:none}
+    .eyebrow:after{display:none}
+    .hero h1{grid-column:1;grid-row:2;position:relative;z-index:2;max-width:600px;margin:18px 0 14px;color:var(--ink);font-family:inherit;font-size:clamp(46px,6vw,72px);font-weight:760;line-height:1.02;letter-spacing:-.058em;text-shadow:none}
+    .hero p{grid-column:1;grid-row:3;position:relative;z-index:2;max-width:480px;margin:0;color:var(--muted);font-size:17px;line-height:1.7}
+    .updated{grid-column:1;grid-row:4;position:relative;z-index:2;width:max-content;margin-top:19px;padding:0;border:0;border-radius:0;background:none;color:var(--muted);font-size:13px}
+    .updated time{color:var(--ink)}
+    .notice{grid-column:1/-1;position:relative;z-index:2;max-width:660px;margin-top:25px;border:1px solid color-mix(in srgb,var(--blue) 27%,var(--line));border-left:3px solid var(--blue);border-radius:12px;padding:14px 17px;background:color-mix(in srgb,var(--surface) 87%,transparent);color:var(--muted);box-shadow:none;backdrop-filter:none;font-size:14px}
+    .hero-visual{grid-column:2;grid-row:1/5;position:relative;z-index:1;min-height:305px;align-self:center;display:grid;place-items:center;perspective:1000px;animation:visual-arrive .9s .15s cubic-bezier(.2,.75,.25,1) both}
+    @keyframes visual-arrive{from{opacity:0;transform:translateY(20px) scale(.97)}to{opacity:1;transform:translateY(0) scale(1)}}
+    .visual-orbit{position:absolute;width:min(360px,90%);aspect-ratio:1;border:1px solid rgba(255,255,255,.08);border-radius:50%;box-shadow:0 0 0 42px rgba(255,255,255,.018),0 0 0 84px rgba(255,255,255,.012);animation:orbit-breathe 7s ease-in-out infinite alternate}
+    @keyframes orbit-breathe{to{transform:scale(1.04);opacity:.65}}
+    .media-card{position:relative;width:min(360px,96%);padding:19px;border:1px solid rgba(255,255,255,.12);border-radius:20px;background:linear-gradient(145deg,#222f40,#182231);box-shadow:0 28px 70px rgba(0,0,0,.4),inset 0 1px rgba(255,255,255,.12);transform:rotateY(-8deg) rotateX(3deg);animation:card-float 6s ease-in-out infinite}
+    [data-theme="light"] .media-card{background:linear-gradient(145deg,#fff,#e9edf5);border-color:#fff;box-shadow:0 28px 70px rgba(27,43,66,.19),inset 0 1px #fff}
+    @keyframes card-float{0%,100%{translate:0 0}50%{translate:0 -9px}}
+    .media-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:15px;color:#bdc7d5;font-size:11px;letter-spacing:.12em;text-transform:uppercase}
+    [data-theme="light"] .media-head{color:#687487}
+    .media-lock{display:grid;place-items:center;width:30px;height:30px;border-radius:9px;background:#ff573d;color:white;box-shadow:0 6px 16px #ff573d55}
+    .media-row{display:flex;align-items:center;gap:13px;padding:12px 0;border-top:1px solid rgba(255,255,255,.08)}
+    [data-theme="light"] .media-row{border-color:#dfe4ed}
+    .media-thumb{width:52px;height:43px;display:grid;place-items:center;flex:0 0 auto;border-radius:10px;background:linear-gradient(145deg,#344e66,#263242);color:#ff7157}
+    [data-theme="light"] .media-thumb{background:linear-gradient(145deg,#d9e4f0,#c6d3e0)}
+    .media-thumb svg{width:23px;height:23px}
+    .media-copy{flex:1;min-width:0}.media-copy strong{display:block;color:#f2f4f8;font-size:12px;font-weight:600}.media-copy span{display:block;margin-top:5px;color:#9ca9ba;font-size:10px}
+    [data-theme="light"] .media-copy strong{color:#263348}[data-theme="light"] .media-copy span{color:#718096}
+    .media-state{width:7px;height:7px;border-radius:50%;background:#54d89b;box-shadow:0 0 12px #54d89b}
+    .floating-badge{position:absolute;display:flex;align-items:center;gap:8px;padding:10px 13px;border:1px solid #ffffff18;border-radius:12px;background:#202d3e;color:#e5ebf3;font-size:11px;box-shadow:0 12px 30px #0003;animation:badge-float 5s ease-in-out infinite}
+    [data-theme="light"] .floating-badge{background:#fff;color:#344256;border-color:#fff;box-shadow:0 12px 30px #27385025}
+    .floating-badge svg{width:16px;height:16px;color:#ff775a}.badge-one{left:-2%;bottom:12%;animation-delay:-1.8s}.badge-two{right:-2%;top:12%;animation-delay:-3.2s}
+    @keyframes badge-float{0%,100%{translate:0 0}50%{translate:0 -7px}}
+    .layout{grid-template-columns:220px minmax(0,1fr);gap:42px;padding-top:48px}
+    .toc{padding:14px 0;border:0;border-left:1px solid var(--line);border-radius:0;background:transparent;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none}
+    .toc strong{padding-left:15px;color:var(--blue)}.toc a{padding:7px 15px;border-radius:0;border-left:2px solid transparent;color:var(--muted)}.toc a:hover{border-left-color:var(--blue);background:color-mix(in srgb,var(--blue) 7%,transparent);color:var(--ink)}
+    .policy section,.policy section:first-child{margin:0 0 12px;padding:24px 26px;border:1px solid var(--line);border-radius:14px;background:var(--surface);box-shadow:var(--shadow);backdrop-filter:none;-webkit-backdrop-filter:none;transition:opacity .65s ease,transform .65s cubic-bezier(.2,.75,.25,1),box-shadow .25s,border-color .25s}
+    .policy section:before{left:26px;right:auto;top:27px;width:3px;height:19px;background:var(--blue)}
+    .policy h2{padding-left:13px;font-family:inherit;font-size:20px;font-weight:700;letter-spacing:-.025em}
+    .policy p,.policy ul{font-size:15px;line-height:1.8}
+    .policy section:hover,.policy section.reveal.is-visible:hover{transform:translateY(-2px);border-color:color-mix(in srgb,var(--blue) 45%,var(--line));box-shadow:0 18px 42px rgba(0,0,0,.16)}
+    .footer-inner{border-color:var(--line)}
+    .trust-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:18px 0 0}
+    .trust-item{display:flex;align-items:center;gap:13px;min-height:76px;padding:15px 17px;border:1px solid var(--line);border-radius:14px;background:linear-gradient(145deg,var(--surface),color-mix(in srgb,var(--surface) 82%,var(--page)));box-shadow:var(--shadow);transition:transform .25s,border-color .25s}
+    .trust-item:hover{transform:translateY(-3px);border-color:color-mix(in srgb,var(--blue) 52%,var(--line))}
+    .trust-icon{display:grid;place-items:center;flex:0 0 38px;width:38px;height:38px;border-radius:11px;background:color-mix(in srgb,var(--blue) 15%,var(--surface));color:var(--blue)}
+    .trust-icon svg{width:20px;height:20px}
+    .trust-item strong,.trust-item small{display:block}.trust-item strong{font-size:13px;line-height:1.35}.trust-item small{margin-top:4px;color:var(--muted);font-size:11px;line-height:1.4}
+    .layout{padding-top:52px}
+    .toc{top:91px;max-height:calc(100vh - 110px);overflow:auto;scrollbar-width:thin;scrollbar-color:var(--line) transparent}
+    .toc a{display:flex;align-items:baseline;gap:10px;padding:8px 12px;transition:color .2s,background .2s,border-color .2s}.toc a:before{counter-increment:toc;content:counter(toc,decimal-leading-zero);color:var(--blue);font-size:10px;font-weight:700;letter-spacing:.04em;opacity:.9}.toc{counter-reset:toc}
+    .policy-heading{margin:0 0 20px;padding:4px 2px 19px;border-bottom:1px solid var(--line)}
+    .policy-kicker{color:var(--blue);font-size:10px;font-weight:750;letter-spacing:.16em}
+    .policy-heading h2{margin:7px 0 5px;padding:0;font-size:25px;letter-spacing:-.045em}
+    .policy-heading p{margin:0;color:var(--muted);font-size:13px;line-height:1.6}
+    .policy section,.policy section:first-child{position:relative;margin-bottom:14px;padding:23px 25px 24px 27px;border-radius:15px;background:linear-gradient(145deg,var(--surface),color-mix(in srgb,var(--surface) 94%,var(--blue)));box-shadow:0 12px 30px rgba(0,0,0,.11),inset 0 1px rgba(255,255,255,.045)}
+    .policy section:before{left:0;top:20px;width:3px;height:24px;border-radius:0 4px 4px 0;background:var(--blue)}
+    .policy h2{display:flex;align-items:baseline;gap:10px;margin-bottom:13px;padding-left:0;font-size:19px;line-height:1.4}
+    .policy h2:first-letter{color:var(--blue)}
+    .policy p{margin:9px 0;color:var(--muted);font-size:14px;line-height:1.82}
+    .policy p strong,.policy li strong{color:var(--ink)}
+    .policy ul{display:grid;gap:7px;padding:0;margin:14px 0;list-style:none}
+    .policy li{position:relative;padding:10px 12px 10px 34px;border:1px solid color-mix(in srgb,var(--line) 75%,transparent);border-radius:10px;background:color-mix(in srgb,var(--page) 37%,transparent);color:var(--muted);font-size:13px;line-height:1.7}
+    .policy li:before{content:"";position:absolute;left:14px;top:17px;width:7px;height:7px;border:2px solid var(--blue);border-radius:3px;transform:rotate(45deg)}
+    .policy a{font-weight:600}
+    #contact{background:radial-gradient(ellipse at 100% 0%,color-mix(in srgb,var(--blue) 13%,transparent),transparent 48%),var(--surface)}
+    .footer{padding-bottom:30px}
+    @media(max-width:760px){.hero{grid-template-columns:1fr;grid-template-rows:auto auto auto auto auto auto;min-height:0;padding:42px 28px 30px;margin-top:20px}.eyebrow,.hero h1,.hero p,.updated,.notice,.hero-visual{grid-column:1}.eyebrow{grid-row:1}.hero h1{grid-row:2;font-size:clamp(44px,11vw,64px)}.hero p{grid-row:3;font-size:16px}.updated{grid-row:4}.hero-visual{grid-row:5;min-height:260px;margin:18px 0 4px}.media-card{width:min(340px,86%)}.badge-one{left:0;bottom:5%}.badge-two{right:0;top:6%}.notice{grid-row:6;margin-top:12px}.trust-strip{grid-template-columns:1fr;gap:8px;margin-top:12px}.trust-item{min-height:64px;padding:11px 14px}.layout{display:block;padding-top:28px}.toc{position:static;display:grid;grid-template-columns:1fr 1fr;gap:0 7px;margin-bottom:22px;padding:12px;border:1px solid var(--line);border-radius:14px;background:var(--surface);max-height:none}.toc strong{grid-column:1/-1;padding-left:8px}.toc a{padding:7px 8px;gap:7px;font-size:12px}.policy-heading{margin-bottom:14px;padding-bottom:14px}.policy-heading h2{font-size:22px}.policy section,.policy section:first-child{padding:19px 16px 20px 19px;margin-bottom:10px}.policy section:before{top:18px}.policy h2{font-size:17px}.policy p{font-size:13px}.policy li{font-size:12px;padding:9px 10px 9px 30px}.policy li:before{left:12px;top:15px}}
+    @media(prefers-reduced-motion:reduce){.hero,.hero:after,.hero-visual,.visual-orbit,.media-card,.floating-badge{animation:none!important}}
   </style>
 </head>
 <body>
   <header class="topbar"><div class="shell topbar-inner">
-    <a class="brand" href="#top" aria-label="Video Player All Format UHD home"><span class="brand-mark" aria-hidden="true"></span><span>Video Player <span style="color:var(--muted);font-weight:500">· AM Core Studios</span></span></a>
+    <a class="brand" href="#top" aria-label="Video Player All Format UHD home"><img class="brand-mark" src="app-logo.png" alt=""><span>Video Player <span style="color:var(--muted);font-weight:500">· AM Core Studios</span></span></a>
     <div class="actions" aria-label="Display settings">
       <div class="segmented" role="group" aria-label="Language">
         <button class="lang-button" type="button" data-language="en" aria-pressed="true">English</button>
@@ -41,11 +172,38 @@
   </div></header>
   <main id="top" class="shell">
     <div class="hero">
-      <div class="eyebrow" data-en="Your privacy, clearly explained" data-bn="আপনার গোপনীয়তা, সহজ ভাষায়">Your privacy, clearly explained</div>
-      <h1 data-en="Privacy Policy" data-bn="গোপনীয়তা নীতি">Privacy Policy</h1>
-      <p data-en="A clear explanation of how Video Player All Format UHD handles information when you use the app." data-bn="Video Player All Format UHD অ্যাপ ব্যবহার করার সময় আপনার তথ্য কীভাবে ব্যবহৃত হয়, তার স্পষ্ট ব্যাখ্যা।">A clear explanation of how Video Player All Format UHD handles information when you use the app.</p>
+      <svg class="hero-landscape" viewBox="0 0 1440 460" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false">
+        <defs>
+          <linearGradient id="ridge-back" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#77816b"/><stop offset="1" stop-color="#39483b"/></linearGradient>
+          <linearGradient id="ridge-mid" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#526451"/><stop offset="1" stop-color="#24372d"/></linearGradient>
+          <linearGradient id="ridge-front" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#344b3b"/><stop offset="1" stop-color="#111a17"/></linearGradient>
+        </defs>
+        <path fill="url(#ridge-back)" opacity=".58" d="M0 300 185 168l104 76 158-180 170 196 112-91 184 150 131-178 151 142 119-82 126 115v144H0Z"/>
+        <path fill="url(#ridge-mid)" d="m0 336 185-100 118 71 163-124 155 109 122-75 151 119 142-110 123 79 121-71 160 104v122H0Z"/>
+        <path fill="url(#ridge-front)" d="m0 378 174-74 123 54 152-78 148 76 127-50 150 66 152-63 119 47 131-65 164 85v84H0Z"/>
+        <path fill="#dce2d3" opacity=".42" d="m447 64 46 53-34-13-26 18-16-9-22 11Zm429 96 31 34-25-9-18 13-16-7-14 8Zm-697 76 26-31 19 23-13-5-9 9-9-5Z"/>
+      </svg>
+      <div class="eyebrow" data-en="VIDEO PLAYER · PRIVACY POLICY" data-bn="ভিডিও প্লেয়ার · গোপনীয়তা নীতি">VIDEO PLAYER · PRIVACY POLICY</div>
+      <h1 data-en="Your privacy.<br>Your control." data-bn="আপনার গোপনীয়তা।<br>আপনার নিয়ন্ত্রণে।">Your privacy.<br>Your control.</h1>
+      <p data-en="A clear guide to the information Video Player All Format UHD uses—and how your media stays yours." data-bn="Video Player All Format UHD কোন তথ্য ব্যবহার করে এবং আপনার মিডিয়া কীভাবে আপনার ডিভাইসেই থাকে—তার সহজ ব্যাখ্যা।">A clear guide to the information Video Player All Format UHD uses—and how your media stays yours.</p>
       <div class="updated"><span data-en="Last updated" data-bn="সর্বশেষ হালনাগাদ">Last updated</span>: <time datetime="2026-10-27">October 27, 2026</time></div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="visual-orbit"></div>
+        <div class="floating-badge badge-one"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3 5 6v5c0 5 3 8 7 10 4-2 7-5 7-10V6l-7-3Z"/><path d="m9 12 2 2 4-4"/></svg><span>On-device privacy</span></div>
+        <div class="media-card">
+          <div class="media-head"><span>Your library</span><span class="media-lock"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 1 1 8 0v3"/></svg></span></div>
+          <div class="media-row"><span class="media-thumb"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.8c0-.8.9-1.3 1.6-.8l9 6.2a1 1 0 0 1 0 1.6l-9 6.2c-.7.5-1.6 0-1.6-.8V5.8Z"/></svg></span><span class="media-copy"><strong>Video collection</strong><span>Available on this device</span></span><i class="media-state"></i></div>
+          <div class="media-row"><span class="media-thumb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M6 7V5h12v2m-11 0 1 13h8l1-13M10 11v5m4-5v5"/></svg></span><span class="media-copy"><strong>Private folder</strong><span>Encrypted local storage</span></span><i class="media-state"></i></div>
+          <div class="media-row"><span class="media-thumb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12a8 8 0 1 0 2.34-5.66L4 8.5"/><path d="M4 4v4.5h4.5M12 8v4l3 2"/></svg></span><span class="media-copy"><strong>Playback history</strong><span>Kept in your app</span></span><i class="media-state"></i></div>
+        </div>
+        <div class="floating-badge badge-two"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v18M3 12h18"/><circle cx="12" cy="12" r="8"/></svg><span>Private by design</span></div>
+      </div>
       <div class="notice" data-en="In short: the app is designed to work on your device. Your media and app library stay on your device. Google Play handles Premium payments. We do not run ads or analytics in the app." data-bn="সংক্ষেপে: অ্যাপটি আপনার ডিভাইসেই কাজ করার জন্য তৈরি। আপনার মিডিয়া ও অ্যাপ লাইব্রেরি ডিভাইসেই থাকে। Premium পেমেন্ট Google Play পরিচালনা করে। অ্যাপে বিজ্ঞাপন বা অ্যানালিটিক্স নেই।">In short: the app is designed to work on your device. Your media and app library stay on your device. Google Play handles Premium payments. We do not run ads or analytics in the app.</div>
+    </div>
+    <div class="trust-strip" aria-label="Privacy summary">
+      <div class="trust-item"><span class="trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3 5 6v5c0 5 3 8 7 10 4-2 7-5 7-10V6l-7-3Z"/><path d="m9 12 2 2 4-4"/></svg></span><span><strong data-en="Private by design" data-bn="গোপনীয়তাই নকশার অংশ">Private by design</strong><small data-en="Your media stays local" data-bn="আপনার মিডিয়া ডিভাইসেই থাকে">Your media stays local</small></span></div>
+      <div class="trust-item"><span class="trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="5" width="16" height="14" rx="2"/><path d="m10 9 5 3-5 3V9Z"/></svg></span><span><strong data-en="No account needed" data-bn="অ্যাকাউন্টের দরকার নেই">No account needed</strong><small data-en="Open and play" data-bn="খুলুন, চালান">Open and play</small></span></div>
+      <div class="trust-item"><span class="trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 7h16M6 7V5h12v2m-11 0 1 13h8l1-13M10 11v5m4-5v5"/></svg></span><span><strong data-en="No ad tracking" data-bn="বিজ্ঞাপন ট্র্যাকিং নেই">No ad tracking</strong><small data-en="No ads or analytics" data-bn="বিজ্ঞাপন বা অ্যানালিটিক্স নেই">No ads or analytics</small></span></div>
     </div>
     <div class="layout">
       <nav class="toc" aria-label="Table of contents">
@@ -53,6 +211,7 @@
         <a href="#overview" data-en="Overview" data-bn="এক নজরে">Overview</a><a href="#media" data-en="Your media & device data" data-bn="মিডিয়া ও ডিভাইসের তথ্য">Your media &amp; device data</a><a href="#private-folder" data-en="Privacy folder" data-bn="প্রাইভেসি ফোল্ডার">Privacy folder</a><a href="#network" data-en="Internet & purchases" data-bn="ইন্টারনেট ও কেনাকাটা">Internet &amp; purchases</a><a href="#permissions" data-en="Permissions" data-bn="অনুমতি">Permissions</a><a href="#retention" data-en="Retention & deletion" data-bn="সংরক্ষণ ও মুছে ফেলা">Retention &amp; deletion</a><a href="#children" data-en="Children" data-bn="শিশুদের গোপনীয়তা">Children</a><a href="#changes" data-en="Policy changes" data-bn="নীতির পরিবর্তন">Policy changes</a><a href="#contact" data-en="Contact" data-bn="যোগাযোগ">Contact</a>
       </nav>
       <article class="policy">
+        <header class="policy-heading"><div class="policy-kicker" data-en="THE DETAILS" data-bn="বিস্তারিত">THE DETAILS</div><h2 data-en="Privacy, section by section." data-bn="গোপনীয়তা নীতি, বিস্তারিতভাবে।">Privacy, section by section.</h2><p data-en="Everything you need to know about the data, permissions, and services behind the app." data-bn="অ্যাপের তথ্য, অনুমতি এবং ব্যবহৃত সেবা সম্পর্কে আপনার যা জানা দরকার—সব এখানে।">Everything you need to know about the data, permissions, and services behind the app.</p></header>
         <section id="overview"><h2 data-en="1. Overview" data-bn="১. এক নজরে">1. Overview</h2><p data-en="This policy applies to Video Player All Format UHD (the “App”), developed by AM Core Studios (“we”, “us”, or “our”). It describes the information the App uses and the choices available to you." data-bn="এই নীতি AM Core Studios (“আমরা”) নির্মিত Video Player All Format UHD (“অ্যাপ”)-এর ক্ষেত্রে প্রযোজ্য। অ্যাপ কোন তথ্য ব্যবহার করে এবং এ বিষয়ে আপনার কী কী নিয়ন্ত্রণ আছে, এখানে তা ব্যাখ্যা করা হয়েছে।">This policy applies to Video Player All Format UHD (the “App”), developed by AM Core Studios (“we”, “us”, or “our”). It describes the information the App uses and the choices available to you.</p><p data-en="The App has no user accounts or company-operated servers. We do not ask for your name, email address, phone number, or location, and we do not collect personal information through the App." data-bn="অ্যাপে কোনো ব্যবহারকারী অ্যাকাউন্ট বা আমাদের পরিচালিত সার্ভার নেই। আমরা আপনার নাম, ইমেইল, ফোন নম্বর বা অবস্থান জানতে চাই না এবং অ্যাপের মাধ্যমে ব্যক্তিগত তথ্য সংগ্রহ করি না।">The App has no user accounts or company-operated servers. We do not ask for your name, email address, phone number, or location, and we do not collect personal information through the App.</p></section>
         <section id="media"><h2 data-en="2. Your media and app data" data-bn="২. আপনার মিডিয়া ও অ্যাপের তথ্য">2. Your media and app data</h2><p data-en="The App accesses media you make available on your device so it can find and play videos and audio. Media is processed locally. Your media files, playlists, playback history, bookmarks, favourites, settings, Privacy folder contents, and custom theme images are not uploaded by the App to our servers." data-bn="ভিডিও ও অডিও খুঁজে চালানোর জন্য অ্যাপ আপনার ডিভাইসে অনুমতি দেওয়া মিডিয়া ব্যবহার করে। মিডিয়া ডিভাইসেই প্রক্রিয়াকরণ করা হয়। আপনার মিডিয়া ফাইল, প্লেলিস্ট, প্লেব্যাক ইতিহাস, বুকমার্ক, পছন্দের তালিকা, সেটিংস, Privacy folder-এর বিষয়বস্তু ও কাস্টম থিমের ছবি অ্যাপ আমাদের সার্ভারে আপলোড করে না।">The App accesses media you make available on your device so it can find and play videos and audio. Media is processed locally. Your media files, playlists, playback history, bookmarks, favourites, settings, Privacy folder contents, and custom theme images are not uploaded by the App to our servers.</p><p data-en="Home screen widgets may display the current track, playback controls, shortcuts, and thumbnails of recently played media. This information is read on the device and appears in widgets you place on your home screen." data-bn="হোম স্ক্রিন উইজেটে চলমান ট্র্যাক, প্লেব্যাক নিয়ন্ত্রণ, শর্টকাট এবং সম্প্রতি চালানো মিডিয়ার থাম্বনেইল দেখা যেতে পারে। তথ্য ডিভাইস থেকেই নেওয়া হয় এবং আপনার হোম স্ক্রিনে থাকা উইজেটে দেখানো হয়।">Home screen widgets may display the current track, playback controls, shortcuts, and thumbnails of recently played media. This information is read on the device and appears in widgets you place on your home screen.</p></section>
         <section id="private-folder"><h2 data-en="3. Privacy folder" data-bn="৩. প্রাইভেসি ফোল্ডার">3. Privacy folder</h2><p data-en="If you use the optional Privacy folder to hide videos or protect folders, the App stores those files in the location you choose through Android’s system folder picker. The files are encrypted on your device using AES-256. You can restore them after reinstalling the App if you retain access to the chosen folder and your recovery credentials." data-bn="ভিডিও লুকাতে বা ফোল্ডার সুরক্ষিত রাখতে ঐচ্ছিক Privacy folder ব্যবহার করলে, Android-এর সিস্টেম ফোল্ডার পিকার দিয়ে আপনার বেছে নেওয়া স্থানে ফাইল রাখা হয়। ফাইলগুলো ডিভাইসেই AES-256 দিয়ে এনক্রিপ্ট করা হয়। নির্বাচিত ফোল্ডার ও পুনরুদ্ধারের তথ্য আপনার কাছে থাকলে অ্যাপ পুনরায় ইনস্টল করার পরও ফাইল ফিরিয়ে আনা সম্ভব।">If you use the optional Privacy folder to hide videos or protect folders, the App stores those files in the location you choose through Android’s system folder picker. The files are encrypted on your device using AES-256. You can restore them after reinstalling the App if you retain access to the chosen folder and your recovery credentials.</p><ul><li data-en="Access is protected by a PIN, with optional fingerprint or face unlock. The PIN is not stored in plain text; a salted one-way hash is kept on the device." data-bn="PIN দিয়ে প্রবেশ সুরক্ষিত থাকে; চাইলে আঙুলের ছাপ বা মুখ শনাক্তকরণ ব্যবহার করতে পারেন। PIN সাধারণ লেখা হিসেবে রাখা হয় না; ডিভাইসে salted one-way hash রাখা হয়।">Access is protected by a PIN, with optional fingerprint or face unlock. The PIN is not stored in plain text; a salted one-way hash is kept on the device.</li><li data-en="You may configure a security question for recovery. Your answer is used on the device to derive a recovery key and is not sent to us." data-bn="পুনরুদ্ধারের জন্য নিরাপত্তা প্রশ্ন সেট করতে পারেন। উত্তরটি ডিভাইসে recovery key তৈরিতে ব্যবহৃত হয় এবং আমাদের কাছে পাঠানো হয় না।">You may configure a security question for recovery. Your answer is used on the device to derive a recovery key and is not sent to us.</li><li data-en="We cannot view or recover your protected files, PIN, or security answer. If you lose both your PIN and recovery answer, or delete the encrypted folder, the files may be unrecoverable." data-bn="আপনার সুরক্ষিত ফাইল, PIN বা নিরাপত্তা প্রশ্নের উত্তর আমরা দেখতে বা ফিরিয়ে দিতে পারি না। PIN ও পুনরুদ্ধারের উত্তর দুটোই হারালে, অথবা এনক্রিপ্ট করা ফোল্ডার মুছে ফেললে, ফাইল আর উদ্ধার করা নাও যেতে পারে।">We cannot view or recover your protected files, PIN, or security answer. If you lose both your PIN and recovery answer, or delete the encrypted folder, the files may be unrecoverable.</li><li data-en="When hiding a video, Android may ask you to approve removing its original from the gallery. The App moves it into the encrypted Privacy folder." data-bn="ভিডিও লুকানোর সময় গ্যালারি থেকে মূল কপি সরানোর অনুমতি Android চাইতে পারে। অ্যাপ ভিডিওটি এনক্রিপ্ট করা Privacy folder-এ সরিয়ে রাখে।">When hiding a video, Android may ask you to approve removing its original from the gallery. The App moves it into the encrypted Privacy folder.</li></ul><p class="subtle" data-en="Biometric checks are performed by Android. The App does not access or store your biometric data." data-bn="বায়োমেট্রিক যাচাই Android পরিচালনা করে। অ্যাপ আপনার বায়োমেট্রিক তথ্য পায় না বা সংরক্ষণ করে না।">Biometric checks are performed by Android. The App does not access or store your biometric data.</p></section>
@@ -103,6 +262,14 @@
       let initialLanguage='en';
       try{initialLanguage=localStorage.getItem(languageKey)||'en'}catch{}
       setLanguage(initialLanguage==='bn'?'bn':'en');
+      const sections=[...document.querySelectorAll('.policy section')];
+      sections.forEach(section=>section.classList.add('reveal'));
+      if('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+        const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{
+          if(entry.isIntersecting){entry.target.classList.add('is-visible');observer.unobserve(entry.target)}
+        }),{threshold:.08,rootMargin:'0px 0px -28px 0px'});
+        sections.forEach(section=>observer.observe(section));
+      }else sections.forEach(section=>section.classList.add('is-visible'));
     })();
   </script>
 </body>
